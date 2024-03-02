@@ -1,0 +1,80 @@
+[0m19:51:52.556688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209BDAFACE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209C052BA00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209C05282B0>]}
+
+
+============================== 19:51:52.572315 | 0e900c62-db42-4035-bf87-b75834cafae5 ==============================
+[0m19:51:52.572315 [info ] [MainThread]: Running with dbt=1.7.9
+[0m19:51:52.572315 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ashwi\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init dbt-duckdb', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:52:04.902440 [error] [MainThread]: Encountered an error:
+
+[0m19:52:04.902440 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\ashwi\anaconda3\lib\site-packages\dbt\cli\requires.py", line 91, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\ashwi\anaconda3\lib\site-packages\dbt\cli\requires.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\ashwi\anaconda3\lib\site-packages\dbt\cli\main.py", line 515, in init
+    results = task.run()
+  File "C:\Users\ashwi\anaconda3\lib\site-packages\dbt\task\init.py", line 322, in run
+    project_name = self.get_valid_project_name()
+  File "C:\Users\ashwi\anaconda3\lib\site-packages\dbt\task\init.py", line 276, in get_valid_project_name
+    name = click.prompt("Enter a name for your project (letters, digits, underscore)")
+  File "C:\Users\ashwi\AppData\Roaming\Python\Python310\site-packages\click\termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+  File "C:\Users\ashwi\AppData\Roaming\Python\Python310\site-packages\click\termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m19:52:04.916957 [debug] [MainThread]: Command `dbt init` failed at 19:52:04.916957 after 12.46 seconds
+[0m19:52:04.916957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209BDAFACE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209C05A2620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209C05A2680>]}
+[0m19:52:04.916957 [debug] [MainThread]: Flushing usage events
+[0m19:52:26.988065 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A531EACE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A55C20370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A55C23A30>]}
+
+
+============================== 19:52:26.988065 | 35812d46-70b7-4a72-8941-e05ee77962b5 ==============================
+[0m19:52:26.988065 [info ] [MainThread]: Running with dbt=1.7.9
+[0m19:52:27.003694 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\ashwi\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init humanoo_dbt', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:52:27.003694 [debug] [MainThread]: Starter project path: C:\Users\ashwi\anaconda3\lib\site-packages\dbt\include\starter_project
+[0m19:52:27.034836 [info ] [MainThread]: 
+Your new dbt project "humanoo_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:52:27.034836 [info ] [MainThread]: Setting up your profile.
+[0m20:06:22.415809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EB6CACE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EE0FD600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EE0FFA30>]}
+
+
+============================== 20:06:22.431326 | 22b9a9a4-6016-41c9-9049-4acf513b80e8 ==============================
+[0m20:06:22.431326 [info ] [MainThread]: Running with dbt=1.7.9
+[0m20:06:22.431326 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\ashwi\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:06:22.431326 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\humanoo\humanoo_analytics_engineering_case_study\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:06:22.431326 [debug] [MainThread]: Command `dbt run` failed at 20:06:22.431326 after 0.19 seconds
+[0m20:06:22.431326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EB6CACE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EE0FFA30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EE0FF460>]}
+[0m20:06:22.431326 [debug] [MainThread]: Flushing usage events
+[0m20:54:15.971568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235A6E3ACE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235A9870820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235A9871C60>]}
+
+
+============================== 20:54:15.986174 | c1050e62-6fff-4e6f-ada1-5175d15944f3 ==============================
+[0m20:54:15.986174 [info ] [MainThread]: Running with dbt=1.7.9
+[0m20:54:15.986174 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\ashwi\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:54:15.986174 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\humanoo\humanoo_analytics_engineering_case_study\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:54:15.986174 [debug] [MainThread]: Command `dbt run` failed at 20:54:15.986174 after 0.11 seconds
+[0m20:54:15.986174 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235A6E3ACE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235A9871C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235A98734F0>]}
+[0m20:54:15.986174 [debug] [MainThread]: Flushing usage events

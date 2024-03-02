@@ -1,0 +1,20 @@
+name: 'humanoo_dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: 'humanoo_dbt'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+seed-paths: ["data"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+
+models:
+  humanoo_dbt:
+    staging:
+      +materialized: view
+      +tags: ["staging"]
+    analysis:
+      +materialized: table
+      +tags: ["analysis"]

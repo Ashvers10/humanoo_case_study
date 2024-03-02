@@ -1,0 +1,123 @@
+user_id,user_name,company_id,company_name,company_size
+1,Lapo ,2,Die Zweite GmbH,unknown
+2,Andreas ,1,The First Company Ltd.,100
+3,mointain goat,3,Some Company Inc.,15.5
+4,Tina,3,Some Company Inc.,15.5
+5,sabi,1,The First Company Ltd.,100
+6,Jenny ,1,The First Company Ltd.,100
+7,Chiara,2,Die Zweite GmbH,unknown
+8,Els ,1,The First Company Ltd.,100
+9,Nutzer,3,Some Company Inc.,15.5
+10,Mika,1,The First Company Ltd.,100
+11,binchen803,3,Some Company Inc.,15.5
+12,Christine ,2,Die Zweite GmbH,unknown
+13,Noel,2,Die Zweite GmbH,unknown
+14,Schweri_Bei,3,Some Company Inc.,15.5
+15,Martina ,2,Die Zweite GmbH,unknown
+16,Pascal,2,Die Zweite GmbH,unknown
+17,Nutzer,1,The First Company Ltd.,100
+18,Bastet ,2,Die Zweite GmbH,unknown
+19,thom,3,Some Company Inc.,15.5
+20,morningless,1,The First Company Ltd.,100
+21,Santacruz,3,Some Company Inc.,15.5
+22,Jolijeva ,2,Die Zweite GmbH,unknown
+23,sputnik V,3,Some Company Inc.,15.5
+24,Trixi,2,Die Zweite GmbH,unknown
+25,Susie,3,Some Company Inc.,15.5
+26,Alex,2,Die Zweite GmbH,unknown
+27,Mike,2,Die Zweite GmbH,unknown
+28,dezi,3,Some Company Inc.,15.5
+29,pauli,1,The First Company Ltd.,100
+30,marco,3,Some Company Inc.,15.5
+31,Jo Seph ,2,Die Zweite GmbH,unknown
+32,Johannes,1,The First Company Ltd.,100
+33,LadyP,1,The First Company Ltd.,100
+34,Anna,2,Die Zweite GmbH,unknown
+35,Tartaruga ,3,Some Company Inc.,15.5
+36,manu,3,Some Company Inc.,15.5
+37,Jessica,1,The First Company Ltd.,100
+38,Frank ,3,Some Company Inc.,15.5
+39,Marion,1,The First Company Ltd.,100
+40,Brian,1,The First Company Ltd.,100
+41,cami ,1,The First Company Ltd.,100
+42,DirkVietheer,3,Some Company Inc.,15.5
+43,Desi,1,The First Company Ltd.,100
+44,nana,1,The First Company Ltd.,100
+45,lotte,3,Some Company Inc.,15.5
+46,Alexandre,3,Some Company Inc.,15.5
+47,CHRIGA,1,The First Company Ltd.,100
+48,User,1,The First Company Ltd.,100
+49,lola465,2,Die Zweite GmbH,unknown
+50,Frenkyg,3,Some Company Inc.,15.5
+51,moharita,2,Die Zweite GmbH,unknown
+52,Chnübi,2,Die Zweite GmbH,unknown
+53,User,3,Some Company Inc.,15.5
+54,steinmas,1,The First Company Ltd.,100
+55,Mischa,1,The First Company Ltd.,100
+56,Milan,1,The First Company Ltd.,100
+57,Pitsch ,3,Some Company Inc.,15.5
+58,Reine du Japon,1,The First Company Ltd.,100
+59,Meega,1,The First Company Ltd.,100
+60,Marcus,2,Die Zweite GmbH,unknown
+61,Stef,2,Die Zweite GmbH,unknown
+62,machinegunkelly,1,The First Company Ltd.,100
+63,Irina ,1,The First Company Ltd.,100
+64,Anna,2,Die Zweite GmbH,unknown
+65,antó ,1,The First Company Ltd.,100
+66,Jules,1,The First Company Ltd.,100
+67,Michi,3,Some Company Inc.,15.5
+68,tigerli80,3,Some Company Inc.,15.5
+69,Nutzer,1,The First Company Ltd.,100
+70,Celina,2,Die Zweite GmbH,unknown
+71,Ivan,2,Die Zweite GmbH,unknown
+72,Lucas,3,Some Company Inc.,15.5
+73,Laura,3,Some Company Inc.,15.5
+74,Loïc,1,The First Company Ltd.,100
+75,Steve,1,The First Company Ltd.,100
+76,andrea,2,Die Zweite GmbH,unknown
+77,Fabio,1,The First Company Ltd.,100
+78,Benny,1,The First Company Ltd.,100
+79,Belén ,3,Some Company Inc.,15.5
+80,A. Meyer,2,Die Zweite GmbH,unknown
+81,Mendel,2,Die Zweite GmbH,unknown
+82,Cathal,2,Die Zweite GmbH,unknown
+83,marion,2,Die Zweite GmbH,unknown
+84,Utopio,3,Some Company Inc.,15.5
+85,Anne,3,Some Company Inc.,15.5
+86,Fafo,1,The First Company Ltd.,100
+87,Nutzer,1,The First Company Ltd.,100
+88,Carmen ,1,The First Company Ltd.,100
+89,Rosetta,2,Die Zweite GmbH,unknown
+90,paescu,2,Die Zweite GmbH,unknown
+91,Joel,3,Some Company Inc.,15.5
+92,Agnes Kempf ,2,Die Zweite GmbH,unknown
+93,tuti tuti ,2,Die Zweite GmbH,unknown
+94,Utente,1,The First Company Ltd.,100
+95,Anja,1,The First Company Ltd.,100
+96,imri ,2,Die Zweite GmbH,unknown
+97,minimonster,2,Die Zweite GmbH,unknown
+98,Yogine,3,Some Company Inc.,15.5
+99,Nini,2,Die Zweite GmbH,unknown
+100,Emma,2,Die Zweite GmbH,unknown
+101,Mezo,2,Die Zweite GmbH,unknown
+102,Murio,2,Die Zweite GmbH,unknown
+103,missi,2,Die Zweite GmbH,unknown
+104,marion,2,Die Zweite GmbH,unknown
+105,gonzo,3,Some Company Inc.,15.5
+106,Forro,1,The First Company Ltd.,100
+107,Nutzer,1,The First Company Ltd.,100
+108,Kramer,1,The First Company Ltd.,100
+109,Rosetta Stone,2,Die Zweite GmbH,unknown
+110,panda1,2,Die Zweite GmbH,unknown
+111,uve123,3,Some Company Inc.,15.5
+112,Monstro,2,Die Zweite GmbH,unknown
+113,123user,2,Die Zweite GmbH,unknown
+114,Bandi,1,The First Company Ltd.,100
+115,Anja7,1,The First Company Ltd.,100
+116,Imir,2,Die Zweite GmbH,unknown
+117,minimonster,2,Die Zweite GmbH,unknown
+118,Yogini,3,Some Company Inc.,15.5
+119,Ninina,2,Die Zweite GmbH,unknown
+120,Emmano,2,Die Zweite GmbH,unknown
+121,litiger,3,Some Company Inc.,15.5
+122,Franko,3,Some Company Inc.,15.5
